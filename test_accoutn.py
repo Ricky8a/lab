@@ -14,7 +14,7 @@ class Test:
 
     def test_deposit(self):
         # Test with negative amount
-        assert self.a1.deposit(-100) == False
+        assert self.a1.deposit(-1) == False
         assert self.a1.get_balance() == 0.0
 
         # Test with zero amount
